@@ -27,3 +27,14 @@
 
 ## Plano de Testes
 
+| Código  | Descrição                                                                 | Operação     | Resultado Esperado                          | Requisito Relacionado |
+|---------|---------------------------------------------------------------------------|--------------|---------------------------------------------|------------------------|
+| CT-01   | Verifica se a operação de soma está sendo realizada corretamente.         | Soma 5 + 10   | O resultado deve ser **15**.                 | RF01                  |
+| CT-02   | Verifica se a operação de subtração está sendo realizada corretamente.    | Subtração 25 - 5 | O resultado deve ser **20**.             | RF02                  |
+| CT-03   | Verifica se a multiplicação retorna o valor correto.                      | Multiplicação 25 × 10 | O resultado deve ser **250**.        | RF04                  |
+| CT-04   | Verifica se a divisão está sendo realizada corretamente.                  | Divisão 15 ÷ 5 | O resultado deve ser **3**.              | RF03                  |
+| CT-05   | Verifica se a divisão por zero retorna uma mensagem de erro.              | Divisão 15 ÷ 0 | Deve retornar mensagem de **operação inválida**. | RF07          |
+| CT-06   | Verifica se o cálculo de fatorial retorna o valor correto.                | Fatorial 6!   | O resultado deve ser **720**.                | RF05                  |
+| CT-07   | Verifica se o cálculo de fatorial com número negativo retorna erro.       | Fatorial -6!  | Deve retornar mensagem de **operação inválida**. | RF05          |
+| CT-08   | Verifica se a potência com expoente zero retorna o valor correto.         | Potência 4^0  | O resultado deve ser **1**.                  | RF06                  |
+
