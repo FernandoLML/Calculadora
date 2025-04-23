@@ -1,5 +1,6 @@
 # Calculadora
----
+
+**Equipe: Bruno Franzosi e Fernando Lucas Moraes da Luz.**
 
 ## Requisitos
 
@@ -25,3 +26,4 @@
 ---
 
 ## Plano de Testes
+
