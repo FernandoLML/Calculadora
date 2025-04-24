@@ -4,8 +4,11 @@
 
 ## Dependências 
 Para rodar o arquivo é necessário ter o Node.js instalado.
+
 Link para instalação do Node.js: https://nodejs.org/pt
+
 Após a instalação no terminal do VsCode, dê node -v para que ele retorne a versão.
+
 Para rodar "node nome do arquivo" Exemplo: node calculadora.js
 
 
